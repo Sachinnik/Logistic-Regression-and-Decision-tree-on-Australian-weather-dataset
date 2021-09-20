@@ -15,4 +15,7 @@ Data reduction and transformation: In this section data is normalized within a p
 
 Finding correlations: Correlation between the variables are checked by using corrplot() function from “corrplot” package.
 
+Model Selection: Logistic Regression is applied by using glm() function from “CRAN” package. family=binomial and link = logit is used for Binary classification. Random forest is executed by using randomForest() function from “randomForest” package.
+
+Evaluation: For logistic Regression Accuracy is calculated by using prediction() and performance() function from “ROCR” package. Confusion matrix is printed for both models as a evaluation method.
 
